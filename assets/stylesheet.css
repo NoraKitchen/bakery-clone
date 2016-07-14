@@ -1,0 +1,30 @@
+.sweet-nav {
+    background-color: white !important;
+    border: none !important;
+    text-align: center;
+    height: 150px !important;
+}
+
+.nav-links {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 5px;
+}
+
+.nav-right {
+    float: right !important;
+}
+
+.nav-left {
+    float: left;
+}
+
+.banner {
+    background-image: url("cupcakesback.jpg");
+    height: 400px;
+    background-size: 100%;
+}
