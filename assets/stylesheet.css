@@ -9,11 +9,6 @@ body {
     font-size: 17px;
 }
 
-.ribbon-brand {
-    height: 75px;
-    padding-top: 20px;
-}
-
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -46,6 +41,20 @@ body {
     width: 150px;
     padding-top: 5px;
     margin-bottom: -75px;
+}
+
+.logo-md {
+    width: 75px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-right: -34px;
+    margin-left: -34px;
+}
+
+.logo-sm {
+    width: 75px;
+    margin-top: -25px;
+    margin-bottom: -100px;
 }
 
 .nav-right {
