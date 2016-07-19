@@ -136,12 +136,15 @@ body {
     width: 15px;
 }
 
-.services-text {
-    color: #bdbdbd;
+.service {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.service-row {
-    padding-bottom: 50px;
+.services-text {
+    color: #bdbdbd;
 }
 
 .service-icon {
