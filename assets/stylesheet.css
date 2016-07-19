@@ -2,6 +2,10 @@ body {
     font-family: "Lobster" !important;
 }
 
+.ser-text {
+    font-family: 'Asap', sans-serif;
+}
+
 .sweet-nav {
     background-color: white !important;
     border: none !important;
@@ -53,7 +57,7 @@ body {
 
 .logo-sm {
     width: 75px;
-    margin-top: -25px;
+    margin-top: -10px;
     margin-bottom: -100px;
 }
 
@@ -69,7 +73,7 @@ body {
     background-image: url("cupcakesback.jpg");
     background-repeat: no-repeat;
     height: 450px;
-    background-size: 150%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,6 +102,7 @@ body {
     color: white;
     text-align: center;
     font-size: 50px;
+    text-shadow: 1px 1px gray;
 }
 
 .banner-divider {
@@ -183,4 +188,92 @@ body {
 
 .delivery {
     background-color: #DFB6D9;
+}
+
+.test-left {
+    background-color: #cf93c7;
+}
+
+.test-right {
+    background-color: #DFB6D9;
+}
+
+.test-left, .test-right {
+    color: white;
+}
+
+.test-left h5, .test-left p{
+    text-align: right;
+}
+
+.test-left h5, .test-right h5 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.test-left h1 {
+    margin-top: 0px;
+}
+
+.test-right h1 {
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
+.test-right {
+    padding-top: 20px;
+}
+
+.lp-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cf93c7;
+    margin-top: -15px;
+}
+
+.rw-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -45px;
+    margin-bottom: 45px;
+}
+
+.lw-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.rp-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DFB6D9;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .test-left h1 {
+        padding-top: 20px !important;
+    }
+
+    .test-left p {
+        padding-bottom: 25px;
+    }
+
+    .lw-circle {
+        background-color: #DFB6D9;
+        margin-top: -20px;
+    }
+
+    .rw-circle {
+        background-color: #cf93c7;
+    }
 }
