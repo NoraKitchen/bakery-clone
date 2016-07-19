@@ -116,3 +116,68 @@ body {
     padding-right: 50px;
     padding-left: 50px;
 }
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.divider {
+    border-bottom: 1px solid #fafafa;
+    padding-bottom: 0px !important;
+    padding-top: 7px;
+    width: 350px;
+    filter: invert(20%);
+    -webkit-filter: invert(20%);
+    margin-bottom: 30px;
+}
+
+.divider-img {
+    width: 15px;
+}
+
+.services-text {
+    color: #bdbdbd;
+}
+
+.service-row {
+    padding-bottom: 50px;
+}
+
+.service-icon {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-img {
+    width: 45%;
+}
+
+.cake {
+    background-color: #e0aec6;
+}
+
+.cupcake {
+    background-color: #B6D3DF;
+}
+
+.desserts {
+    background-color: #D5DDA4;
+}
+
+.catering {
+    background-color: #CDEA98;
+}
+
+.recipes {
+    background-color: #B6DFD2;
+}
+
+
+.delivery {
+    background-color: #DFB6D9;
+}
