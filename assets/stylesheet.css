@@ -108,8 +108,8 @@ body {
 .banner-divider {
     border-bottom: 1px solid white;
     padding-bottom: 0px;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: 25%;
+    padding-left: 25%;
 }
 
 .sub-banner-text {
