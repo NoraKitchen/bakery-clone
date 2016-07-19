@@ -1,5 +1,5 @@
 body {
-    font-family: Courgette !important;
+    font-family: "Lobster" !important;
 }
 
 .sweet-nav {
@@ -59,7 +59,7 @@ body {
 .banner {
     background-image: url("cupcakesback.jpg");
     background-repeat: no-repeat;
-    height: 400px;
+    height: 450px;
     background-size: 150%;
     display: flex;
     flex-direction: column;
@@ -85,5 +85,25 @@ body {
     min-width: 1280px;
 }
 
-.banner {
+.main-banner-text {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.banner-divider {
+    border-bottom: 1px solid white;
+    padding-bottom: 0px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.sub-banner-text {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Courgette";
+    padding-top: 30;
+    padding-right: 50px;
+    padding-left: 50px;
 }
