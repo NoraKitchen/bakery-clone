@@ -161,30 +161,29 @@ body {
     align-items: center;
 }
 
-.service-img {
+.service-img, .thumb-circle-img {
     width: 45%;
 }
 
-.cake {
+.cake, .btn-cupcakes {
     background-color: #e0aec6;
 }
 
-.cupcake {
+.cupcake, .btn-cakes {
     background-color: #B6D3DF;
 }
 
-.desserts {
+.desserts, .btn-cookies {
     background-color: #D5DDA4;
 }
 
-.catering {
+.catering, .btn-pasteries {
     background-color: #CDEA98;
 }
 
-.recipes {
+.recipes, .btn-catering {
     background-color: #B6DFD2;
 }
-
 
 .delivery {
     background-color: #DFB6D9;
@@ -276,4 +275,59 @@ body {
     .rw-circle {
         background-color: #cf93c7;
     }
+}
+
+ul .btn {
+    color: white;
+    width: 85px;
+}
+
+.works {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.work-title {
+    margin-bottom: 3px !important;
+    margin-top: 0px !important;
+}
+
+.thumb-text {
+    position: relative;
+    top: -10px;
+}
+
+.works p {
+    color: darkgray;
+}
+
+.work-thumb {
+    border-bottom: 4px solid #e0aec6 !important;
+}
+
+.thumb-circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aec6;
+    border: 2px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -17px;
+}
+
+.work-thumb .img-responsive {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .work-thumb .img-responsive {
+    height: 125px;
+}
 }
