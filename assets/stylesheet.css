@@ -3,7 +3,7 @@ body {
 }
 
 .ser-text {
-    font-family: 'Asap', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .sweet-nav {
@@ -165,23 +165,23 @@ body {
     width: 45%;
 }
 
-.cake, .btn-cupcakes {
+.cake, .btn-cupcakes, .pink {
     background-color: #e0aec6;
 }
 
-.cupcake, .btn-cakes {
+.cupcake, .btn-cakes, .blue {
     background-color: #B6D3DF;
 }
 
-.desserts, .btn-cookies {
+.desserts, .btn-cookies, .yellow {
     background-color: #D5DDA4;
 }
 
-.catering, .btn-pasteries {
+.catering, .btn-pasteries, .green {
     background-color: #CDEA98;
 }
 
-.recipes, .btn-catering {
+.recipes, .btn-catering, #prices{
     background-color: #B6DFD2;
 }
 
@@ -267,12 +267,12 @@ body {
         padding-bottom: 25px;
     }
 
-    .lw-circle {
+     #testimonials .lw-circle {
         background-color: #DFB6D9;
         margin-top: -20px;
     }
 
-    .rw-circle {
+    #testimonials .rw-circle {
         background-color: #cf93c7;
     }
 }
@@ -329,5 +329,132 @@ ul .btn {
 @media (min-width: 992px) {
     .work-thumb .img-responsive {
     height: 125px;
+    }
 }
+
+#prices h2 {
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+
+#prices .divider {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.lg-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B6DFD2;
+    margin-top: -15px;
+}
+
+#prices .rw-circle {
+    margin-top: -20px;
+}
+
+
+.rg-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B6DFD2;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+@media (max-width: 991px) {
+    #prices .rw-circle {
+        display: none;
+    }
+    #prices .lw-circle {
+        display: none;
+    }
+}
+
+.price-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.price-box {
+	width: 200px;
+	height: 300px;
+	background: white;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.price-box:after {
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 50px solid white;
+}
+
+.price-text {
+    color: gray;
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+.price-line {
+    width: 200px;
+    background-color: #B6DFD2;
+    padding: 1px;
+}
+
+.price-line .lg {
+    font-size: 25px;
+}
+
+.price {
+    color: white;
+}
+
+.price-text .details {
+    padding: 5px;
+}
+
+.details h5 {
+    color: #bdbdbd;
+}
+
+.details ul {
+    padding-left: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: gray !important;
+}
+
+.details li {
+    margin-bottom: 4px;
+}
+
+.details li span {
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.price-text button {
+    color: white;
+    padding: 3px;
+    width: 75px;
+    margin-top: 10px;
 }
