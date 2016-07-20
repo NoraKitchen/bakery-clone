@@ -2,7 +2,7 @@ body {
     font-family: "Lobster" !important;
 }
 
-.ser-text {
+.ser-text, .team-well p {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -457,4 +457,59 @@ ul .btn {
     padding: 3px;
     width: 75px;
     margin-top: 10px;
+}
+
+.team-well {
+    border-bottom: 2px solid gray !important;
+    text-align: center;
+    color: gray;
+    margin: -10px;
+}
+
+.team-well h5 {
+    font-weight: bold;
+    color: black;
+}
+
+.team-well li {
+    padding: 2px !important;
+}
+
+.team-well ul {
+    margin-bottom: 0px;
+}
+
+.t-circle, .i-circle, .f-circle, .p-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm-icon {
+    color: white;
+    font-size: 23px !important;
+}
+
+.t-circle {
+    background-color: #00aced;
+}
+
+.i-circle {
+    background-color: #517fa4;
+}
+
+.f-circle {
+    background-color: #3b5998;
+}
+
+.p-circle {
+    background-color: #cb2027;
+}
+
+.p-circle .sm-icon {
+    font-size: 32px !important;
+    position: relative;
+    top: 4px;
 }
