@@ -2,6 +2,10 @@ body {
     font-family: "Lobster" !important;
 }
 
+.ser-text {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .sweet-nav {
     background-color: white !important;
     border: none !important;
@@ -31,7 +35,7 @@ body {
 
 @media (max-width: 768px) {
 
-    .pink {
+    .stripe {
         background-color: #f8e8ff;
         padding: 10px !important;
     }
@@ -53,7 +57,7 @@ body {
 
 .logo-sm {
     width: 75px;
-    margin-top: -25px;
+    margin-top: -10px;
     margin-bottom: -100px;
 }
 
@@ -69,7 +73,7 @@ body {
     background-image: url("cupcakesback.jpg");
     background-repeat: no-repeat;
     height: 450px;
-    background-size: 150%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,13 +102,14 @@ body {
     color: white;
     text-align: center;
     font-size: 50px;
+    text-shadow: 1px 1px gray;
 }
 
 .banner-divider {
     border-bottom: 1px solid white;
     padding-bottom: 0px;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: 25%;
+    padding-left: 25%;
 }
 
 .sub-banner-text {
@@ -156,31 +161,300 @@ body {
     align-items: center;
 }
 
-.service-img {
+.service-img, .thumb-circle-img {
     width: 45%;
 }
 
-.cake {
+.cake, .btn-cupcakes, .pink {
     background-color: #e0aec6;
 }
 
-.cupcake {
+.cupcake, .btn-cakes, .blue {
     background-color: #B6D3DF;
 }
 
-.desserts {
+.desserts, .btn-cookies, .yellow {
     background-color: #D5DDA4;
 }
 
-.catering {
+.catering, .btn-pasteries, .green {
     background-color: #CDEA98;
 }
 
-.recipes {
+.recipes, .btn-catering, #prices{
     background-color: #B6DFD2;
 }
 
-
 .delivery {
     background-color: #DFB6D9;
+}
+
+.test-left {
+    background-color: #cf93c7;
+}
+
+.test-right {
+    background-color: #DFB6D9;
+}
+
+.test-left, .test-right {
+    color: white;
+}
+
+.test-left h5, .test-left p{
+    text-align: right;
+}
+
+.test-left h5, .test-right h5 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.test-left h1 {
+    margin-top: 0px;
+}
+
+.test-right h1 {
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
+.test-right {
+    padding-top: 20px;
+}
+
+.lp-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cf93c7;
+    margin-top: -15px;
+}
+
+.rw-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -45px;
+    margin-bottom: 45px;
+}
+
+.lw-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.rp-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DFB6D9;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .test-left h1 {
+        padding-top: 20px !important;
+    }
+
+    .test-left p {
+        padding-bottom: 25px;
+    }
+
+     #testimonials .lw-circle {
+        background-color: #DFB6D9;
+        margin-top: -20px;
+    }
+
+    #testimonials .rw-circle {
+        background-color: #cf93c7;
+    }
+}
+
+ul .btn {
+    color: white;
+    width: 85px;
+}
+
+.works {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.work-title {
+    margin-bottom: 3px !important;
+    margin-top: 0px !important;
+}
+
+.thumb-text {
+    position: relative;
+    top: -10px;
+}
+
+.works p {
+    color: darkgray;
+}
+
+.work-thumb {
+    border-bottom: 4px solid #e0aec6 !important;
+}
+
+.thumb-circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0aec6;
+    border: 2px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -17px;
+}
+
+.work-thumb .img-responsive {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .work-thumb .img-responsive {
+    height: 125px;
+    }
+}
+
+#prices h2 {
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+
+#prices .divider {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.lg-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B6DFD2;
+    margin-top: -15px;
+}
+
+#prices .rw-circle {
+    margin-top: -20px;
+}
+
+
+.rg-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #B6DFD2;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+@media (max-width: 991px) {
+    #prices .rw-circle {
+        display: none;
+    }
+    #prices .lw-circle {
+        display: none;
+    }
+}
+
+.price-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.price-box {
+	width: 200px;
+	height: 300px;
+	background: white;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.price-box:after {
+	content: "";
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 50px solid white;
+}
+
+.price-text {
+    color: gray;
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+.price-line {
+    width: 200px;
+    background-color: #B6DFD2;
+    padding: 1px;
+}
+
+.price-line .lg {
+    font-size: 25px;
+}
+
+.price {
+    color: white;
+}
+
+.price-text .details {
+    padding: 5px;
+}
+
+.details h5 {
+    color: #bdbdbd;
+}
+
+.details ul {
+    padding-left: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: gray !important;
+}
+
+.details li {
+    margin-bottom: 4px;
+}
+
+.details li span {
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.price-text button {
+    color: white;
+    padding: 3px;
+    width: 75px;
+    margin-top: 10px;
 }
