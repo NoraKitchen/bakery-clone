@@ -35,7 +35,7 @@
                     <li> <img src="assets/logo.png" class="logo hidden-sm hidden-xs" alt="Sweet Cake Logo"></li>
                     <li> <img src="assets/logo.png" class="logo-md hidden-xl hidden-lg hidden-md hidden-xs" alt="Sweet Cake Logo"></li>
                     <li class="stripe"><a href="#team">Our Team</a></li>
-                    <li><a href="">Our Skills</a></li>
+                    <li><a href="#skills">Our Skills</a></li>
                     <li class="stripe"><a href="#social">Social</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
@@ -699,10 +699,63 @@
             </div>
         </section>
 
+        <section class="row content" id="social">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <h2 class="text-center ">Follow Us</h2>
+                    <div class="divide"><img src="assets/dividesymbol.png " class="divider-img center-block "></div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-8 col-md-offset-2 ">
+                    <div class="row center-block">
+                        <ul class="list-inline">
+                            <li>
+                                <div class="fl-circle "><i class="fa fa-facebook lg-icon " aria-hidden="true "></i></div>
+                            </li>
+                            <li>
+                                <div class="tl-circle "><i class="fa fa-twitter lg-icon " aria-hidden="true "></i></div>
+                            </li>
+                            <li>
+                                <div class="gl-circle "><i class="fa fa-google-plus lg-icon " aria-hidden="true "></i></div>
+                            </li>
+                            <li>
+                                <div class="flicker-circle "><i class="fa fa-flickr lg-icon " aria-hidden="true "></i></div>
+                            </li>
+                            <li>
+                                <div class="il-circle "><i class="fa fa-instagram lg-icon " aria-hidden="true "></i></div>
+                            </li>
+                            <li>
+                                <div class="vl-circle "><i class="fa fa-vimeo lg-icon " aria-hidden="true "></i></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="upper-border"></div>
+        </section>
+
+        <section class="row #contacts">
+            <div style='overflow:hidden;height:440px;width:100%px;'>
+                <div id='gmap_canvas' style='height:440px;width:100%;'></div>
+                <div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div>
+                <div><small><a href="https://privacypolicygenerator.info">privacy policy generator</a></small></div>
+                <style>
+                    #gmap_canvas img {
+                        max-width: none!important;
+                        background: none!important
+                    }
+                </style>
+            </div>        
+            </section>
+
     </div>
 </body>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js "></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js "></script>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(25.3083094,101.54490510000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(25.3083094,101.54490510000005)});infowindow = new google.maps.InfoWindow({content:'<strong>Sweet Cake</strong><br>Fake St.<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
 
 </html>
