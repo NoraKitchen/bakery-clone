@@ -337,7 +337,7 @@ ul .btn {
     text-shadow: 1px 1px gray;
 }
 
-#prices .divider {
+#prices .divider, #skills .divider {
     filter: none;
     -webkit-filter: none;
 }
@@ -512,4 +512,9 @@ ul .btn {
     font-size: 32px !important;
     position: relative;
     top: 4px;
+}
+
+#skills {
+    background-color: #DFB6D9;
+    color: white;
 }
