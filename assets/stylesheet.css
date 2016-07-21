@@ -85,7 +85,7 @@ body {
     height: 16px;
     background-size: 2.5%;
     width: 100%;
-    min-width: 1280px;
+    /*min-width: 1280px;*/
 }
 
 .lower-border {
@@ -495,15 +495,15 @@ ul .btn {
     font-size: 23px !important;
 }
 
-.t-circle {
+.t-circle, .tl-circle {
     background-color: #00aced;
 }
 
-.i-circle {
+.i-circle, .il-circle {
     background-color: #517fa4;
 }
 
-.f-circle {
+.f-circle, .fl-circle {
     background-color: #3b5998;
 }
 
@@ -618,4 +618,39 @@ ul .btn {
 
 #skills .media {
     margin: 10px;
+}
+
+.tl-circle, .il-circle, .fl-circle, .gl-circle, .vl-circle, .flicker-circle {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lg-icon {
+    color: white;
+    font-size: 45px !important;
+}
+
+#social li {
+    margin: 20px;
+}
+
+.gl-circle {
+    background-color: #d34836
+}
+
+.flicker-circle {
+    background-color: #deadc4;
+}
+
+.vl-circle {
+    background-color: #4ebbff;
+}
+
+#social .upper-border {
+    position: relative;
+    top: 65px;
+    z-index: 1;
 }
