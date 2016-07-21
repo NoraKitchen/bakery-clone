@@ -161,6 +161,12 @@ body {
     align-items: center;
 }
 
+@media (max-width: 991px) {
+    .service {
+        padding-left: 30px !important;
+    }
+}
+
 .service-img, .thumb-circle-img {
     width: 45%;
 }
@@ -516,10 +522,13 @@ ul .btn {
     color: white;
 }
 
-.centercurly {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (min-width: 992px) {
+
+    .centercurly {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
@@ -560,7 +569,7 @@ ul .btn {
 
 .inner-bar1, .inner-bar2, .inner-bar3, .inner-bar4, .inner-bar5{
     background-image: url("stripes.jpg");
-    background-size: cover;
+    background-clip: padding-box;
     height: 16px;
     margin: 4px;
 }
@@ -589,4 +598,24 @@ ul .btn {
     height: 24px;
     margin-left: 3px;
     margin-top: -20px;
+}
+
+.skill-circle {
+    height: 65px;
+    margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+    .skill-circle {
+        padding-left: 20px !important;
+    }
+}
+
+.skill-text h5 {
+    color: black;
+}
+
+
+#skills .media {
+    margin: 10px;
 }
