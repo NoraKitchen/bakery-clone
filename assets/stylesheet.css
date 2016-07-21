@@ -1,5 +1,6 @@
 body {
     font-family: "Lobster" !important;
+    overflow: hidden !important;
 }
 
 .ser-text, .team-well p {
@@ -81,11 +82,12 @@ body {
 
 .upper-border {
     background-image: url("upperborder.png");
+    background-size: inherit;
     background-repeat: repeat-x;
     height: 16px;
     background-size: 2.5%;
     width: 100%;
-    /*min-width: 1280px;*/
+    min-width: 1280px;
 }
 
 .lower-border {
@@ -654,3 +656,8 @@ ul .btn {
     top: 65px;
     z-index: 1;
 }
+
+
+/*right margin issue
+partially caused by borders--may as well figure out how to do those .nav-right
+using boder image may have been better*/
