@@ -350,7 +350,7 @@ ul .btn {
     margin-top: -15px;
 }
 
-#prices .rw-circle {
+#prices .rw-circle, #skills .rw-circle {
     margin-top: -20px;
 }
 
@@ -365,10 +365,7 @@ ul .btn {
 }
 
 @media (max-width: 991px) {
-    #prices .rw-circle {
-        display: none;
-    }
-    #prices .lw-circle {
+    #prices .rw-circle, #skills .rw-circle, #prices .lw-circle, #skills .lw-circle {
         display: none;
     }
 }
@@ -517,4 +514,79 @@ ul .btn {
 #skills {
     background-color: #DFB6D9;
     color: white;
+}
+
+.centercurly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.llp-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DFB6D9;
+    margin-top: -15px;
+}
+
+.rpp-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DFB6D9;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.skill-bars {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .skill-bars {
+        padding: 60px !important;
+    }
+}
+
+.outer-bar {
+    background-color: white;
+    width: 85%;
+    height: 24px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.inner-bar1, .inner-bar2, .inner-bar3, .inner-bar4, .inner-bar5{
+    background-image: url("stripes.jpg");
+    background-size: cover;
+    height: 16px;
+    margin: 4px;
+}
+
+.inner-bar1 {
+    width: 50%;
+}
+
+.inner-bar2 {
+    width: 75%;
+}
+
+.inner-bar3 {
+    width: 30%;
+}
+
+.inner-bar4 {
+    width: 70%;
+}
+
+.inner-bar5 {
+    width: 85%;
+}
+
+.minicheck {
+    height: 24px;
+    margin-left: 3px;
+    margin-top: -20px;
 }
