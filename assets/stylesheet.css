@@ -1,6 +1,5 @@
 body {
     font-family: "Lobster" !important;
-    overflow: hidden !important;
 }
 
 .ser-text, .team-well p {
@@ -85,19 +84,17 @@ body {
     background-size: inherit;
     background-repeat: repeat-x;
     height: 16px;
-    background-size: 2.5%;
+    background-size: 30px;
     width: 100%;
-    min-width: 1280px;
 }
 
 .lower-border {
     background-image: url("lowerborder.png");
     background-repeat: repeat-x;
     height: 13px;
-    background-size: 2.5%;
+    background-size: 30px;
     align-self: flex-end;
     width: 100%;
-    min-width: 1280px;
 }
 
 .main-banner-text {
@@ -288,6 +285,7 @@ body {
 ul .btn {
     color: white;
     width: 85px;
+    margin-top: 5px;
 }
 
 .works {
@@ -492,6 +490,7 @@ ul .btn {
     justify-content: center;
     align-items: center;
 }
+
 .sm-icon {
     color: white;
     font-size: 23px !important;
@@ -607,11 +606,6 @@ ul .btn {
     margin-top: 5px;
 }
 
-@media (max-width: 991px) {
-    .skill-circle {
-        padding-left: 20px !important;
-    }
-}
 
 .skill-text h5 {
     color: black;
@@ -657,6 +651,12 @@ ul .btn {
     z-index: 1;
 }
 
+#map {
+    width: 100%
+}
+
+/*
+also google map is being an ass*/
 
 /*right margin issue
 partially caused by borders--may as well figure out how to do those .nav-right
