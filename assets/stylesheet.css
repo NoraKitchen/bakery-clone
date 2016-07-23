@@ -628,9 +628,6 @@ ul .btn {
     width: 85px;
     height: 85px;
     border-radius: 50%;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     margin: 20px;
     text-align: center;
     padding-top: 20px;
@@ -638,10 +635,6 @@ ul .btn {
 .lg-icon {
     color: white;
     font-size: 45px !important;
-}
-
-#social li {
-    margin: 20px;
 }
 
 .gl-circle {
